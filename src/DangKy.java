@@ -240,12 +240,12 @@ public class DangKy extends javax.swing.JFrame {
                 DangKy d = new DangKy();
                 d.setVisible(true);
                 d.setResizable(false);
-                centreWindow(d);
+                centerWindow(d);
             }
         });
     }
 
-    public static void centreWindow(Window frame) {
+    public static void centerWindow(Window frame) {
         Dimension dimension = Toolkit.getDefaultToolkit().getScreenSize();
         int x = (int) ((dimension.getWidth() - frame.getWidth()) / 2);
         int y = (int) ((dimension.getHeight() - frame.getHeight()) / 2);
